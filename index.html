@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jennifer Joyce</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <style>
+        body, h1, h2, h3, h4, h5 {
+            font-family: "Poppins", sans-serif
+        }
+
+        body {
+            font-size: 16px;
+        }
+
+        .w3-half img {
+            margin-bottom: -6px;
+            margin-top: 16px;
+            opacity: 0.8;
+            cursor: pointer
+        }
+
+            .w3-half img:hover {
+                opacity: 1
+            }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar">
+        <br>
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+        <div class="w3-container">
+            <h3 class="w3-padding-64"><b>My Digital<br>Resume</b></h3>
+        </div>
+        <div class="w3-bar-block">
+            <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+            <a href="#aboutme" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About Me</a>
+            <a href="#education" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Education</a>
+            <a href="#employement" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Employement</a>
+            <a href="#skillsets" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Skill Sets</a>
+            <a href="#leadership" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Leadership</a>
+        </div>
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+        <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+        <span>My Digital Resume</span>
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+        <!-- Header -->
+        <div class="w3-container" style="margin-top:80px" id="aboutme">
+            <h1 class="w3-jumbo"><b>Jennifer Joyce</b></h1>
+            <h3 class="w3-xxxlarge w3-text-red"><b>Get to Know Me</b></h3>
+        </div>
+
+        <img src="C:\Users\19723\OneDrive - University of Oklahoma\Pictures\Mug Shots\IMG_3678.jpg" style="width:20%"  style="border-radius:30%">
+
+        <!-- About Me -->
+        <div class="w3-container" id="aboutme" style="margin-top:75px">
+            <h1 class="w3-xxxlarge w3-text-red"><b>About Me.</b></h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+            <p>My name is Jennifer Joyce. </p>
+            <p>
+                I am a motivated college student at the University of Oklahoma, passionate about pursuing a career in
+                Management Information Systems (MIS) or Management of Information Technology (MIT).
+                I possess a strong foundation in both accounting and MIS, which allows me to bridge the gap between
+                financial data and technology, making me a well-rounded candidate for roles that combine these
+                skill sets. Eager to learn and contribute, I am seeking opportunities to apply my academic knowledge
+                to real-world challenges and drive innovative solutions in the field of MIS and technology management
+            </p>
+        </div>
+
+
+        <!-- Education -->
+        <div class="w3-container" id="education" style="margin-top:75px">
+            <h1 class="w3-xxxlarge w3-text-red"><b>Education.</b></h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+            <h3><b>University of Oklahoma | Norman, OK</b></h3>
+            <h5><i>Master of Science</i> - Management Information Technology</h5>
+            <h5><i>Bachelor of Business Administration</i> - Management Information Systems and Accounting</h5>
+            <h5><i>Minor</i> - Piano Pedagogy</h5>
+            <p>GPA: 3.87</p>
+            <p>
+                <b>Relevant MIS/MIT course work:</b> Computer Information Systems (Visual Basic),
+                Intro to Programming (C#), Database Management (SQL), Business Analysis, Electronic Business,
+                Web Design (HTML and PHP), Business Programming Languages (C# and HTML),
+                MIT Python I, Analytics Programming (R), Data Science and Analytics, Projects Management
+            </p>
+            <h3><b>Collin College | Plano, TX</b></h3>
+            <p>GPA: 4.00</p>
+            <p>
+                <b>Relevant course work:</b> Business Ethics, Principles of Microeconomics,
+                Business Problem Solving/Decision Making, Principles of Management,
+                Team Building/High Performance Work Team, Business Communications, Statistics
+            </p>
+        </div>
+
+        <!-- Employement -->
+        <div class="w3-container" id="employement" style="margin-top:75px">
+            <h1 class="w3-xxxlarge w3-text-red"><b>Employement.</b></h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+            <h5><b>Accounting Summer Intern | AT&T EDGE Internship Program | Dallas, TX</b></h5>
+            <p>May 2023 – August 2023</p>
+            <ul>
+                <li>Automated previously manual projects by using SQL and MS Access</li>
+                <li>Participated in quarter end close by entering large and complex journal entries in oracle database</li>
+                <li>Reconciled multi-million-dollar account balances using visual basic</li>
+                <li>Created and updated documentation on procedures and system processes</li>
+                <li>Analyzed data to create supporting reports pertaining to wireline assets</li>
+            </ul>
+            <h5><b>Sales Summer Intern | AT&T EDGE Internship Program | Dallas, TX</b></h5>
+            <p>May 2022 – August 2022</p>
+            <ul>
+                <li>Conducted statistical analysis on various Cricket cell phone plan sales</li>
+                <li>Programmed in SQL to pull necessary data to analyze 100,000+ transactions weekly</li>
+                <li>Created an interactive dashboard to view data mined from the SQL queries in the Power BI Application</li>
+            </ul>
+            <h5><b>Customer Service Office Assistant| OU Maintenance and Facilities Management | Norman, OK</b></h5>
+            <p>November 2021 – Current</p>
+            <ul>
+                <li>Created a data entry platform to capture requirements for various maintenance projects</li>
+                <li>Integrated the new data entry platform for iPad use</li>
+                <li>Top producer of work order assignments, averaging 50 assignments per day</li>
+            </ul>
+
+        </div>
+
+
+        <!-- Skill Set -->
+        <div class="w3-container" id="skillsets" style="margin-top:75px">
+            <h1 class="w3-xxxlarge w3-text-red"><b>Skill Set.</b></h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+            <p>
+                Through my job experience and course work, I have developed a strong foundation in both accounting and MIS/MIT.
+                I have gain many technical skills as well as general personal skills.
+            </p>
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-half w3-margin-bottom">
+                <ul class="w3-ul w3-light-grey w3-center">
+                    <li class="w3-dark-grey w3-xlarge w3-padding-32">Technical</li>
+                    <li class="w3-padding-16">SQL</li>
+                    <li class="w3-padding-16">C#</li>
+                    <li class="w3-padding-16">HTML/CSS</li>
+                    <li class="w3-padding-16">Python</li>
+                    <li class="w3-padding-16">R</li>
+                </ul>
+            </div>
+
+            <div class="w3-half">
+                <ul class="w3-ul w3-light-grey w3-center">
+                    <li class="w3-red w3-xlarge w3-padding-32">General</li>
+                    <li class="w3-padding-16">Time Management</li>
+                    <li class="w3-padding-16">Leadership</li>
+                    <li class="w3-padding-16">Something</li>
+                    <li class="w3-padding-16">something</li>
+                    <li class="w3-padding-16">something</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Leadership -->
+        <div class="w3-container" id="leadership" style="margin-top:75px">
+            <h1 class="w3-xxxlarge w3-text-red"><b>Leadership.</b></h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+            <p>
+                Do you want us to style your home? Fill out the form and fill me in with the details
+                :) We love meeting new people!
+            </p>
+        </div>
+
+        <!-- End page content -->
+    </div>
+
+    <!-- W3.CSS Container -->
+    <div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"></div>
+
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+    </script>
+
+</body>
+</html>
